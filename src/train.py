@@ -1,7 +1,7 @@
 # Downloading Dataset
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="8W5NJL9PqwOPDLDjAW2q")
+rf = Roboflow(api_key="Replace_With_Yours")
 project = rf.workspace("mochoye").project("license-plate-detector-ogxxg")
 version = project.version(1)
 dataset = version.download("yolov8")
