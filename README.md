@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ### 1. Real-time detection with webcam
 
 ```bash
-python src/detect_webcam.py
+python src/detect_webcam_plus_text_extraction.py
 ```
 
 ### 2. Detection on a video file
