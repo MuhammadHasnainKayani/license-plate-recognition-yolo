@@ -10,7 +10,7 @@ A computer vision project that detects license plates in images, videos, and liv
 - Detection from video files
 - Detection from a single image
 - Batch detection on a folder of images
-- Easy extension with OCR (text extraction) if needed
+- Also extraxt the text from the detected plates
 
 ---
 
@@ -31,7 +31,7 @@ license-plate-recognition-yolo/
 ├── requirements.txt         <- Dependencies
 │
 ├── src/                     <- Source code
-│   ├── detect_webcam.py     <- Real-time detection with webcam
+│   ├── detect_webcam_plus_text_extraction.py     <- Real-time detection with webcam + Text Extraction
 │   ├── detect_video.py      <- Detection on video file
 │   ├── detect_batch.py      <- Detection on a folder of images
 │   └── train.py             <- Train YOLO on custom dataset
