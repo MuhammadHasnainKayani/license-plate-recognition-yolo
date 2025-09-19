@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-### 1. Real-time detection with webcam
+### 1. Real-time detection with webcam and text extraction
 
 ```bash
 python src/detect_webcam_plus_text_extraction.py
